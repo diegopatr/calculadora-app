@@ -25,7 +25,7 @@ import com.example.calculadora.ui.theme.CalculadoraTheme
 const val ZERO = "0"
 const val MENSAGEM_ERRO = "Erro"
 
-class MainActivity : ComponentActivity() {
+class CalculadoraActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
